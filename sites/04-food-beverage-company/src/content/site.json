@@ -1,0 +1,97 @@
+{
+  "businessName": "Cervejaria Serra Alta",
+  "reference": "R1",
+  "seo": {
+    "title": "Cervejaria Serra Alta | Bebidas artesanais e alimentação local",
+    "description": "Fábrica de bebidas artesanais e cozinha local. Conheça nossos produtos, compre online e acompanhe nossa agenda de eventos."
+  },
+  "sections": [
+    {
+      "id": "header",
+      "logoText": "Serra Alta",
+      "menu": [{ "label": "Sobre nós", "children": ["Quem somos", "Fábrica", "Processo", "Blog"] }, "Cardápio", "Loja", "Agenda", "Contato"]
+    },
+    {
+      "id": "hero",
+      "heading": "O sabor da nossa cidade",
+      "ctas": [
+        { "label": "Cardápio de comidas e bebidas", "href": "/cardapio" },
+        { "label": "Compre nossas bebidas", "href": "/loja" }
+      ],
+      "image": { "alt": "Garrafas de cerveja artesanal sobre a mesa", "unsplashQuery": "craft beer bottles table" }
+    },
+    {
+      "id": "intro",
+      "heading": "Cozinha e fábrica de bebidas locais em um só lugar",
+      "link": { "label": "Conheça a fábrica", "href": "/fabrica" }
+    },
+    {
+      "id": "feature-1",
+      "heading": "Sabor local no coração da cidade",
+      "text": "[TODO]",
+      "link": { "label": "Visite nosso espaço", "href": "/espaco" },
+      "image": { "alt": "Salão com mesas e balcão", "unsplashQuery": "brewery taproom interior" }
+    },
+    {
+      "id": "feature-2",
+      "heading": "Feito com técnica, ambiente e paixão",
+      "text": "[TODO]",
+      "link": { "label": "Sobre nós", "href": "/sobre" },
+      "image": { "alt": "Tanques de produção de bebidas", "unsplashQuery": "brewery tanks" }
+    },
+    {
+      "id": "more-than",
+      "heading": "Muito mais que bebidas",
+      "text": "[TODO]",
+      "cta": { "label": "Planeje sua visita", "href": "/contato" }
+    },
+    {
+      "id": "shop",
+      "heading": "Leve um pedaço da cidade para casa",
+      "items": [
+        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Garrafa de cerveja clara", "unsplashQuery": "pale ale bottle" } },
+        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Garrafa de cerveja escura", "unsplashQuery": "stout beer bottle" } },
+        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Lata de bebida artesanal", "unsplashQuery": "craft beer can" } },
+        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Copo de cerveja âmbar", "unsplashQuery": "amber beer glass" } },
+        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Garrafa de refrigerante artesanal", "unsplashQuery": "craft soda bottle" } },
+        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Kit de bebidas artesanais", "unsplashQuery": "beer gift pack" } }
+      ],
+      "cta": { "label": "Ir para a loja", "href": "/loja" }
+    },
+    {
+      "id": "agenda",
+      "heading": "Sempre tem algo acontecendo",
+      "items": [
+        { "title": "[TODO]", "link": "Mais informações" },
+        { "title": "[TODO]", "link": "Mais informações" },
+        { "title": "[TODO]", "link": "Mais informações" }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "items": [
+        { "quote": "[TODO]", "author": "[TODO]" },
+        { "quote": "[TODO]", "author": "[TODO]" }
+      ],
+      "logos": ["Serra Alta Fábrica", "Serra Alta Cozinha"]
+    },
+    {
+      "id": "partners",
+      "heading": "Mais fortes junto com parceiros locais",
+      "logos": ["[TODO]", "[TODO]", "[TODO]", "[TODO]"]
+    },
+    {
+      "id": "cta",
+      "heading": "Visite a fábrica no nosso espaço",
+      "cta": { "label": "Planeje sua visita", "href": "/contato" },
+      "image": { "alt": "Pessoas brindando no bar", "unsplashQuery": "friends toasting beer" }
+    },
+    {
+      "id": "footer",
+      "phone": "[TODO]",
+      "socials": ["Instagram", "Facebook"],
+      "menu": ["Sobre", "Fábrica", "Cardápio", "Loja", "Agenda", "Contato"],
+      "legal": ["Privacidade", "Termos"]
+    }
+  ]
+}
