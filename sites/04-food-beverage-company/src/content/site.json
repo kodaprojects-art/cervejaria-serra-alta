@@ -9,89 +9,238 @@
     {
       "id": "header",
       "logoText": "Serra Alta",
-      "menu": [{ "label": "Sobre nós", "children": ["Quem somos", "Fábrica", "Processo", "Blog"] }, "Cardápio", "Loja", "Agenda", "Contato"]
+      "menu": [
+        {
+          "label": "Sobre nós",
+          "children": [
+            "Quem somos",
+            "Fábrica",
+            "Processo",
+            "Blog"
+          ]
+        },
+        "Cardápio",
+        "Loja",
+        "Agenda",
+        "Contato"
+      ]
     },
     {
       "id": "hero",
       "heading": "O sabor da nossa cidade",
       "ctas": [
-        { "label": "Cardápio de comidas e bebidas", "href": "/cardapio" },
-        { "label": "Compre nossas bebidas", "href": "/loja" }
+        {
+          "label": "Cardápio de comidas e bebidas",
+          "href": "/cardapio"
+        },
+        {
+          "label": "Compre nossas bebidas",
+          "href": "/loja"
+        }
       ],
-      "image": { "alt": "Garrafas de cerveja artesanal sobre a mesa", "unsplashQuery": "craft beer bottles table" }
+      "image": {
+        "alt": "Garrafas de cerveja artesanal sobre a mesa",
+        "unsplashQuery": "craft beer bottles table"
+      },
+      "text": "Cervejas artesanais, refrigerantes naturais e cozinha regional produzidos aqui mesmo, a poucos passos do centro."
     },
     {
       "id": "intro",
       "heading": "Cozinha e fábrica de bebidas locais em um só lugar",
-      "link": { "label": "Conheça a fábrica", "href": "/fabrica" }
+      "link": {
+        "label": "Conheça a fábrica",
+        "href": "/fabrica"
+      },
+      "text": "Na Serra Alta você vê de perto como nossas bebidas são feitas, prova direto do tanque e come pratos preparados com ingredientes da região."
     },
     {
       "id": "feature-1",
       "heading": "Sabor local no coração da cidade",
-      "text": "[TODO]",
-      "link": { "label": "Visite nosso espaço", "href": "/espaco" },
-      "image": { "alt": "Salão com mesas e balcão", "unsplashQuery": "brewery taproom interior" }
+      "text": "Nosso salão fica ao lado da fábrica, com mesas compridas, balcão de chopes e vista para os tanques. Um lugar para encontrar amigos e provar algo novo.",
+      "link": {
+        "label": "Visite nosso espaço",
+        "href": "/espaco"
+      },
+      "image": {
+        "alt": "Salão com mesas e balcão",
+        "unsplashQuery": "brewery taproom interior"
+      }
     },
     {
       "id": "feature-2",
       "heading": "Feito com técnica, ambiente e paixão",
-      "text": "[TODO]",
-      "link": { "label": "Sobre nós", "href": "/sobre" },
-      "image": { "alt": "Tanques de produção de bebidas", "unsplashQuery": "brewery tanks" }
+      "text": "Cada receita nasce de testes em pequenos lotes. Usamos maltes selecionados, lúpulos frescos e água da serra para chegar a bebidas equilibradas.",
+      "link": {
+        "label": "Sobre nós",
+        "href": "/sobre"
+      },
+      "image": {
+        "alt": "Tanques de produção de bebidas",
+        "unsplashQuery": "brewery tanks"
+      }
     },
     {
       "id": "more-than",
       "heading": "Muito mais que bebidas",
-      "text": "[TODO]",
-      "cta": { "label": "Planeje sua visita", "href": "/contato" }
+      "text": "Além das bebidas, servimos petiscos, pratos para dividir e menus para grupos. Também recebemos visitas guiadas e eventos fechados.",
+      "cta": {
+        "label": "Planeje sua visita",
+        "href": "/contato"
+      }
     },
     {
       "id": "shop",
       "heading": "Leve um pedaço da cidade para casa",
       "items": [
-        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Garrafa de cerveja clara", "unsplashQuery": "pale ale bottle" } },
-        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Garrafa de cerveja escura", "unsplashQuery": "stout beer bottle" } },
-        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Lata de bebida artesanal", "unsplashQuery": "craft beer can" } },
-        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Copo de cerveja âmbar", "unsplashQuery": "amber beer glass" } },
-        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Garrafa de refrigerante artesanal", "unsplashQuery": "craft soda bottle" } },
-        { "name": "[TODO]", "price": "[TODO]", "image": { "alt": "Kit de bebidas artesanais", "unsplashQuery": "beer gift pack" } }
+        {
+          "name": "Serra Clara Pilsen 500 ml",
+          "price": "R$ 18,90",
+          "image": {
+            "alt": "Garrafa de cerveja clara",
+            "unsplashQuery": "pale ale bottle"
+          }
+        },
+        {
+          "name": "Noite Alta Stout 500 ml",
+          "price": "R$ 24,90",
+          "image": {
+            "alt": "Garrafa de cerveja escura",
+            "unsplashQuery": "stout beer bottle"
+          }
+        },
+        {
+          "name": "Trilha IPA lata 473 ml",
+          "price": "R$ 21,90",
+          "image": {
+            "alt": "Lata de bebida artesanal",
+            "unsplashQuery": "craft beer can"
+          }
+        },
+        {
+          "name": "Pico Âmbar Red Ale 500 ml",
+          "price": "R$ 22,90",
+          "image": {
+            "alt": "Copo de cerveja âmbar",
+            "unsplashQuery": "amber beer glass"
+          }
+        },
+        {
+          "name": "Soda de Gengibre 300 ml",
+          "price": "R$ 12,90",
+          "image": {
+            "alt": "Garrafa de refrigerante artesanal",
+            "unsplashQuery": "craft soda bottle"
+          }
+        },
+        {
+          "name": "Kit Degustação 4 garrafas",
+          "price": "R$ 89,90",
+          "image": {
+            "alt": "Kit de bebidas artesanais",
+            "unsplashQuery": "beer gift pack"
+          }
+        }
       ],
-      "cta": { "label": "Ir para a loja", "href": "/loja" }
+      "cta": {
+        "label": "Ir para a loja",
+        "href": "/loja"
+      },
+      "eyebrow": "Loja online",
+      "text": "Compre nossas bebidas online e receba em casa ou retire na fábrica."
     },
     {
       "id": "agenda",
       "heading": "Sempre tem algo acontecendo",
       "items": [
-        { "title": "[TODO]", "link": "Mais informações" },
-        { "title": "[TODO]", "link": "Mais informações" },
-        { "title": "[TODO]", "link": "Mais informações" }
-      ]
+        {
+          "title": "Visita guiada à fábrica",
+          "date": "Sábado, 14 de novembro, 15h",
+          "link": "Mais informações"
+        },
+        {
+          "title": "Noite de música ao vivo",
+          "date": "Sexta, 20 de novembro, 20h",
+          "link": "Mais informações"
+        },
+        {
+          "title": "Lançamento da cerveja de verão",
+          "date": "Sábado, 5 de dezembro, 16h",
+          "link": "Mais informações"
+        }
+      ],
+      "text": "Confira os próximos eventos na fábrica e garanta seu lugar."
     },
     {
       "id": "testimonials",
       "items": [
-        { "quote": "[TODO]", "author": "[TODO]" },
-        { "quote": "[TODO]", "author": "[TODO]" }
+        {
+          "quote": "Ambiente ótimo, cervejas frescas e a visita guiada foi muito divertida. Voltaremos com certeza.",
+          "author": "Lucas Andrade"
+        },
+        {
+          "quote": "A IPA é das melhores que já provei e os petiscos combinam muito bem. Atendimento atencioso.",
+          "author": "Beatriz Moraes"
+        }
       ],
-      "logos": ["Serra Alta Fábrica", "Serra Alta Cozinha"]
+      "logos": [
+        "Serra Alta Fábrica",
+        "Serra Alta Cozinha"
+      ],
+      "eyebrow": "Avaliações",
+      "heading": "O que nossos visitantes dizem"
     },
     {
       "id": "partners",
       "heading": "Mais fortes junto com parceiros locais",
-      "logos": ["[TODO]", "[TODO]", "[TODO]", "[TODO]"]
+      "logos": [
+        "Sítio Vale Verde",
+        "Maltaria Campo Alto",
+        "Padaria Grão Dourado",
+        "Horta Bela Vista"
+      ],
+      "eyebrow": "Parceiros",
+      "text": "Trabalhamos com produtores e fornecedores da região para manter tudo fresco e local."
     },
     {
       "id": "cta",
       "heading": "Visite a fábrica no nosso espaço",
-      "cta": { "label": "Planeje sua visita", "href": "/contato" },
-      "image": { "alt": "Pessoas brindando no bar", "unsplashQuery": "friends toasting beer" }
+      "cta": {
+        "label": "Planeje sua visita",
+        "href": "/contato"
+      },
+      "image": {
+        "alt": "Pessoas brindando no bar",
+        "unsplashQuery": "friends toasting beer"
+      },
+      "text": "Agende uma visita guiada, prove nossas bebidas direto do tanque e conheça cada etapa da produção.",
+      "usps": [
+        "Produção própria",
+        "Ingredientes locais",
+        "Feito na cidade"
+      ]
     },
     {
       "id": "footer",
-      "phone": "[TODO]",
-      "socials": ["Instagram", "Facebook"],
-      "menu": ["Sobre", "Fábrica", "Cardápio", "Loja", "Agenda", "Contato"],
-      "legal": ["Privacidade", "Termos"]
+      "phone": "(11) 4000-0000",
+      "socials": [
+        "Instagram",
+        "Facebook"
+      ],
+      "menu": [
+        "Sobre",
+        "Fábrica",
+        "Cardápio",
+        "Loja",
+        "Agenda",
+        "Contato"
+      ],
+      "legal": [
+        "Privacidade",
+        "Termos"
+      ],
+      "address": "Rua das Hortênsias, 120 – Campos do Jordão, SP",
+      "email": "contato@cervejariaserraalta.com.br",
+      "hours": "Quarta a sexta, 17h às 23h · Sábado e domingo, 12h às 23h"
     }
   ]
 }
